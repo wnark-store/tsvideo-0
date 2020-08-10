@@ -4,7 +4,7 @@ dockerhostsbk="/etc/hostsbk"
 if [ ! -f "$dockerhostsbk" ]; then
 cp "$dockerhosts" "$dockerhostsbk"
 fi
-echo -e "请选择加速还是恢复备份.\n（已自动备份）"
+echo -e "本项目由：寒夜方舟（wnark.com）创建及维护.\n本项目执行(CC BY-NC 4.0).\请选择加速还是恢复备份.\n（已自动备份）"
 echo " 1: 加速"
 echo " 2: 恢复"
 read -p "请输入1|2。输入其他数字将会跳出脚本:"  idx
