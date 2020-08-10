@@ -15,6 +15,7 @@ if [ '1' = "$idx" ];then
   echo "129.146.46.7 registry.cnpmjs.org" >> "$dockerhosts"
   echo "129.146.46.7 registry.npmjs.com" >> "$dockerhosts"
   echo "129.146.46.7 r.cnpmjs.org" >> "$dockerhosts"
+  echo "129.146.46.7 raw.githubusercontent.com" >> "$dockerhosts" 
 elif [ '2' = "$idx" ];then
   cp "$dockerhostsbk" "$dockerhosts"
 else
