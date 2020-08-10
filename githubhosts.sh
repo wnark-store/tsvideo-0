@@ -1,7 +1,7 @@
 #!/bin/bash
 dockerhosts="/etc/hosts"
 dockerhostsbk="/etc/hostsbk"
-if [ ! -d "$dockerhostsbk" ]; then
+if [ ! -f "$dockerhostsbk" ]; then
 cp "$dockerhosts" "$dockerhostsbk"
 fi
 echo -e "请选择加速还是恢复备份.\n（已自动备份）"
