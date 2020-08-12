@@ -24,6 +24,7 @@ if [ "$opt" = "加速" ];then
   echo "129.146.46.7 www.github.com" >> "$dockerhosts" 
   echo "129.146.46.7 avatars0.githubusercontent.com" >> "$dockerhosts"
   echo "129.146.46.7 avatars1.githubusercontent.com" >> "$dockerhosts" 
+  echo "129.146.46.7 codeload.github.com" >> "$dockerhosts" 
   
   echo "129.146.46.7 registry.cnpmjs.org" >> "$dockerhosts"
   echo "129.146.46.7 registry.npmjs.com" >> "$dockerhosts"
