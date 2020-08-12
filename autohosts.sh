@@ -29,6 +29,7 @@ if [ "$opt" = "加速" ];then
   echo "129.146.46.7 registry.cnpmjs.org" >> "$dockerhosts"
   echo "129.146.46.7 registry.npmjs.com" >> "$dockerhosts"
   echo "129.146.46.7 r.cnpmjs.org" >> "$dockerhosts"
+  echo "129.146.46.7 rpm.nodesource.com" >> "$dockerhosts"
   echo -e "执行完成.\n由于个人能力有限无法收集所有的域名.\n欢迎补充。"
   exit
 elif [ "$opt" = "恢复" ];then
